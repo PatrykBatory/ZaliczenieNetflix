@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Netflux</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="nav">
+      <div class="nav__left">
+        <div class="logo">NETFLUX</div>
+        <nav class="menu">
+          <a class="active" href="#">Strona główna</a>
+          <a href="#">Serie i programy</a>
+          <a href="#">Filmy</a>
+          <a href="#">Nowe i popularne</a>
+          <a href="#">Moja lista</a>
+          <a href="#">Przeglądaj wg języka</a>
+        </nav>
+      </div>
+      <div class="nav__right">
+        <button class="icon-btn">🔍</button>
+        <button class="icon-btn">🔔</button>
+        <div class="avatar">P</div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg"></div>
+      <div class="hero__scrim"></div>
+      <div class="hero__content">
+        <div class="badge">Top 10</div>
+        <h1 class="hero__title">Na<br><span>Zawsze</span></h1>
+        <p class="hero__desc">
+          Film komedia romantyczna. 
+        </p>
+        <div class="hero__actions">
+          <button class="btn btn--light">▶ Odtwórz</button>
+          <button class="btn btn--ghost">ℹ️ Więcej informacji</button>
+        </div>
+      </div>
+      <div class="hero__caption">„Polecam”</div>
+    </section>
+
+
+    <main class="rows">
+      <section class="row">
+        <h2>Warto zobaczyć też</h2>
+        <div class="rail" data-rail>
+          <button class="rail__btn rail__btn--left" data-left>‹</button>
+          <div class="rail__track">
+
+            <a class="tile" href="#"><img src="https://picsum.photos/id/10/600/340" alt=""><span class="n">N</span></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/id/11/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/id/12/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/bridge/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/shrek/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/id/33/600/340" alt=""></a>
+          </div>
+          <button class="rail__btn rail__btn--right" data-right>›</button>
+        </div>
+      </section>
+
+      <section class="row">
+        <h2>Polecane dla ciebie</h2>
+        <div class="rail" data-rail>
+          <button class="rail__btn rail__btn--left" data-left>‹</button>
+          <div class="rail__track">
+            <a class="tile tile--progress" href="#"><img src="https://picsum.photos/seed/cyberpunk/600/340" alt=""><div class="progress"><span style="width:65%"></span></div></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/id/35/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/robot/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/city/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/id/39/600/340" alt=""></a>
+          </div>
+          <button class="rail__btn rail__btn--right" data-right>›</button>
+        </div>
+      </section>
+
+      <section class="row">
+        <h2>Seriale Komedie Romantyczne</h2>
+        <div class="rail" data-rail>
+          <button class="rail__btn rail__btn--left" data-left>‹</button>
+          <div class="rail__track">
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/1660/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/b99/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/sitcom1/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/sitcom2/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/sitcom3/600/340" alt=""></a>
+          </div>
+          <button class="rail__btn rail__btn--right" data-right>›</button>
+        </div>
+      </section>
+
+      <section class="row">
+        <h2>Top 10</h2>
+        <div class="rail" data-rail>
+          <button class="rail__btn rail__btn--left" data-left>‹</button>
+          <div class="rail__track">
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/blood/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/pluto/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/mecha/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/space/600/340" alt=""></a>
+            <a class="tile" href="#"><img src="https://picsum.photos/seed/eye/600/340" alt=""></a>
+          </div>
+          <button class="rail__btn rail__btn--right" data-right>›</button>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
